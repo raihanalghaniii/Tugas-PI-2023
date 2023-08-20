@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: titillium-web, sans-serif;
+    
+}
+
+.ipb-logo {
+    width: 12rem;
+    height: 3.3rem;
+    background: #2e3d80;
+    margin-top: 5px;
+}
+
+.pekan-ilkomerz {
+    width: 4rem;
+    height: 3rem;
+    background: 2e3d80;
+}
+.logo-pi {
+    width: 5rem;
+    height: 4rem;
+    background: #2e3d80;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1rem 0 0.8rem 0;
+    margin-bottom: 5rem;
+    background: #2e3d80;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    line-height: normal;
+}
+
+.judul-button {
+    font-size: 30px;
+    background: #2e3d80;
+    background-color: #2e3d80;
+    padding: 14px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+.nav-right {
+    display: flex;
+    gap: 6rem;
+    background: #2e3d80;
+    padding: 1.3rem 0 0 0;
+}
+
+.home-button{
+    background: #2e3d80;
+    color: white;
+}
+
+.home-button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.aboutme-button{
+    background: #2e3d80;
+    color: white;
+}
+
+.aboutme-button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.socmed-button{
+    background: #2e3d80;
+    margin-right: 10rem;
+    color: white;
+}
+
+.socmed-button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#biodata-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.my-image {
+    width: 231px;
+    height: 232px;
+    border-radius: 4px;
+    background: url(<path-to-image>), #9b9898 0px -58.464px / 100% 150.4% no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-name {
+    text-align: center;
+    padding: 15px 1px 1px 1px;
+    margin: 4rem 2 rem 2rem 2rem;
+}
+
+.right-side {
+    display: flex;
+    margin-top: 2.4rem;
+    font-size: larger;
+}
+
+.isi-biodata {
+    margin-top: 1.64rem;
+}
+
+.judul-aboutme {
+    margin-top: 1rem;
+}
+.tombol-aboutme{
+    margin-top: 20rem;
+    font-size: larger;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    border-color: rgb(248, 183, 108);
+}
+
+.keterangan-desc {
+    font-size: larger;
+    padding: 2rem 12rem 0 12rem;
+    margin-bottom: 1rem;
+}
+
+#social-media {
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.reach-me {
+    margin-bottom: 1rem;
+}
+.social-media-icon-instagram {
+    padding: 2px 0px 1px 3px;
+    background: #222;
+    color: #fff;
+    margin: 8px;
+    border-radius: 4px;
+    background: #c00070!important;
+    margin-top: 1.5rem;
+    font-size: larger;
+}
+
+.social-media-icon-twitter {
+    padding: 2px 3px 1px 3px;
+    background: #222;
+    color: #0300d1;
+    margin: 5px;
+    border-radius: 4px;
+    background: #1da1f2!important;
+    font-size: larger;
+}
